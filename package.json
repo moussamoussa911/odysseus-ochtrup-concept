@@ -1,0 +1,13 @@
+{
+  "name": "odysseus-ochtrup-concept",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Modern multilingual website concept for Restaurant Odysseus in Ochtrup",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check app.js && node --check server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

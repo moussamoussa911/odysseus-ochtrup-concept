@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#071f34">
+  <meta name="description" content="Reservieren Sie Ihren Tisch im Restaurant Odysseus in Ochtrup.">
+  <link rel="icon" type="image/png" href="/assets/images/preview.png">
+  <title>Tisch reservieren · Restaurant Odysseus Ochtrup</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css"><script src="/app.js" defer></script>
+</head>
+<body data-page="booking">
+  <a class="skip-link" href="#content">Zum Inhalt</a><div data-site-header></div>
+  <main id="content">
+    <section class="booking-hero">
+      <div class="booking-heading">
+        <div class="eyebrow light"><span class="index-pill">03</span><span data-i18n="booking.eyebrow">Tisch reservieren</span></div>
+        <h1><span data-i18n="booking.title1">Ihr Abend</span><br><em data-i18n="booking.title2">beginnt hier.</em></h1>
+        <p data-i18n="booking.text">Wählen Sie in drei kurzen Schritten Ihren Lieblingstisch.</p>
+      </div>
+      <div class="booking-hours">
+        <span data-i18n="booking.today">Heute</span><strong data-open-status></strong><p data-i18n="booking.hours">Mi–Sa 17:30–23:00 · So 12:00–14:30 & 17:30–23:00</p>
+      </div>
+    </section>
+
+    <section class="booking-shell">
+      <div class="booking-progress" aria-label="Fortschritt">
+        <button class="active" type="button" data-booking-nav="1"><span>01</span><b data-i18n="booking.step1">Wann</b><small data-booking-summary="1" data-i18n="booking.chooseDate">Datum wählen</small></button>
+        <button type="button" data-booking-nav="2"><span>02</span><b data-i18n="booking.step2">Wer & wo</b><small data-booking-summary="2" data-i18n="booking.chooseGuests">Gäste wählen</small></button>
+        <button type="button" data-booking-nav="3"><span>03</span><b data-i18n="booking.step3">Kontakt</b><small data-booking-summary="3" data-i18n="booking.yourDetails">Ihre Angaben</small></button>
+      </div>
+      <form class="booking-form" data-booking-form novalidate>
+        <section class="booking-step active" data-booking-step="1">
+          <div class="step-heading"><span data-i18n="booking.stepOne">Schritt 1 von 3</span><h2 data-i18n="booking.whenTitle">Wann dürfen wir Sie begrüßen?</h2></div>
+          <div class="calendar-wrap">
+            <div class="calendar-head"><button type="button" data-month-prev aria-label="Vorheriger Monat">←</button><strong data-calendar-title></strong><button type="button" data-month-next aria-label="Nächster Monat">→</button></div>
+            <div class="calendar-week"><span>Mo</span><span>Di</span><span>Mi</span><span>Do</span><span>Fr</span><span>Sa</span><span>So</span></div>
+            <div class="calendar-grid" data-calendar></div>
+          </div>
+          <div class="time-wrap">
+            <h3 data-i18n="booking.time">Uhrzeit</h3>
+            <p data-i18n="booking.timeHint">Wählen Sie zuerst ein verfügbares Datum.</p>
+            <div class="time-grid" data-times></div>
+          </div>
+          <button class="button button-navy booking-next" type="button" data-booking-next><span data-i18n="action.continue">Weiter</span><span>→</span></button>
+        </section>
+
+        <section class="booking-step" data-booking-step="2">
+          <div class="step-heading"><span data-i18n="booking.stepTwo">Schritt 2 von 3</span><h2 data-i18n="booking.companyTitle">Wie sieht Ihre Runde aus?</h2></div>
+          <div class="booking-field">
+            <label data-i18n="booking.people">Anzahl Personen</label>
+            <div class="booking-guest-grid" data-booking-guests></div>
+          </div>
+          <div class="booking-field">
+            <label data-i18n="booking.area">Wunschbereich</label>
+            <div class="area-grid">
+              <button type="button" data-area="restaurant"><span data-icon="restaurant"></span><b data-i18n="booking.areaRestaurant">Restaurant</b><small data-i18n="booking.areaRestaurantText">Warm & gesellig</small></button>
+              <button type="button" data-area="terrace"><span data-icon="sun"></span><b data-i18n="booking.areaTerrace">Terrasse</b><small data-i18n="booking.areaTerraceText">Wenn das Wetter mitspielt</small></button>
+              <button type="button" data-area="any"><span data-icon="spark"></span><b data-i18n="booking.areaAny">Überraschen Sie mich</b><small data-i18n="booking.areaAnyText">Der schönste freie Tisch</small></button>
+            </div>
+          </div>
+          <div class="booking-controls"><button class="text-link" type="button" data-booking-back>← <span data-i18n="action.back">Zurück</span></button><button class="button button-navy" type="button" data-booking-next><span data-i18n="action.continue">Weiter</span><span>→</span></button></div>
+        </section>
+
+        <section class="booking-step" data-booking-step="3">
+          <div class="step-heading"><span data-i18n="booking.stepThree">Schritt 3 von 3</span><h2 data-i18n="booking.contactTitle">Wie erreichen wir Sie?</h2></div>
+          <div class="contact-grid">
+            <label><span data-i18n="form.name">Name</span><input name="name" required autocomplete="name"></label>
+            <label><span data-i18n="form.phone">Telefon</span><input name="phone" type="tel" required autocomplete="tel"></label>
+            <label><span data-i18n="form.email">E-Mail</span><input name="email" type="email" required autocomplete="email"></label>
+            <label><span data-i18n="form.occasion">Anlass (optional)</span><select name="occasion"><option value="" data-i18n="form.none">Kein besonderer Anlass</option><option data-i18n="form.birthday">Geburtstag</option><option data-i18n="form.anniversary">Jahrestag</option><option data-i18n="form.business">Geschäftsessen</option></select></label>
+            <label class="full"><span data-i18n="form.note">Wünsche (optional)</span><textarea name="note" rows="3" data-i18n-placeholder="form.notePlaceholder" placeholder="Kinderstuhl, Allergien, besondere Wünsche …"></textarea></label>
+          </div>
+          <label class="privacy-check"><input type="checkbox" required><span data-i18n="form.privacy">Ich stimme der Verarbeitung meiner Angaben zur Bearbeitung der Reservierungsanfrage zu.</span></label>
+          <p class="form-disclaimer" data-i18n="form.disclaimer">Dies ist eine unverbindliche Reservierungsanfrage. Ihr Tisch ist erst nach Bestätigung durch das Restaurant fest reserviert.</p>
+          <div class="booking-controls"><button class="text-link" type="button" data-booking-back>← <span data-i18n="action.back">Zurück</span></button><button class="button button-sun" type="submit"><span data-i18n="action.request">Anfrage senden</span><span>↗</span></button></div>
+        </section>
+      </form>
+      <aside class="booking-aside">
+        <div class="aside-image"><img src="/assets/images/album-02.jpg" width="900" height="1200" alt="Aperitif im Restaurant Odysseus"></div>
+        <div class="aside-content"><span class="eyebrow" data-i18n="booking.help">Lieber persönlich?</span><a href="tel:+4925531204">02553 1204</a><p data-i18n="booking.helpText">Wir nehmen Ihre Reservierung auch gern telefonisch entgegen.</p></div>
+      </aside>
+    </section>
+  </main>
+  <div data-site-footer></div>
+  <dialog class="booking-dialog" data-booking-dialog><button type="button" data-dialog-close aria-label="Schließen">×</button><div class="dialog-icon">✓</div><span class="eyebrow" data-i18n="dialog.eyebrow">Efcharistó!</span><h2 data-i18n="dialog.title">Ihre Anfrage ist vorbereitet.</h2><p data-i18n="dialog.text">In der finalen Website wird diese Anfrage direkt an Odysseus übermittelt. Für diese Konzeptvorschau können Sie das Restaurant telefonisch erreichen.</p><div data-dialog-summary></div><a class="button button-navy" href="tel:+4925531204"><span data-i18n="dialog.call">Jetzt anrufen</span><span>→</span></a></dialog>
+</body>
+</html>

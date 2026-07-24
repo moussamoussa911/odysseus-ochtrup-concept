@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#071f34">
+  <meta name="description" content="Die Speisekarte des Restaurant Odysseus in Ochtrup – Mezé, Grillgerichte, Fisch, Salate und Desserts.">
+  <link rel="icon" type="image/png" href="/assets/images/preview.png">
+  <title>Speisekarte · Restaurant Odysseus Ochtrup</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css"><script src="/app.js" defer></script>
+</head>
+<body data-page="menu">
+  <a class="skip-link" href="#content">Zum Inhalt</a><div data-site-header></div>
+  <main id="content">
+    <section class="page-hero menu-hero">
+      <div class="page-hero-copy">
+        <div class="eyebrow light"><span class="index-pill">02</span><span data-i18n="menu.eyebrow">Die Speisekarte</span></div>
+        <h1><span data-i18n="menu.title1">Ehrlich gekocht.</span><br><em data-i18n="menu.title2">Großzügig geteilt.</em></h1>
+        <p data-i18n="menu.intro">Klassiker aus Griechenland, Spezialitäten vom Grill und kleine Teller für die ganze Runde.</p>
+      </div>
+      <div class="page-hero-photo"><img src="/assets/images/album-06.jpg" width="1200" height="1200" alt="Odysseus Grillspezialitäten" fetchpriority="high"><span aria-hidden="true">ΜΑΖΙ</span></div>
+    </section>
+
+    <section class="menu-shell">
+      <div class="menu-toolbar">
+        <label class="menu-search"><span class="sr-only" data-i18n="menu.searchLabel">Speisekarte durchsuchen</span><span data-icon="search"></span><input id="menu-search" type="search" autocomplete="off" data-i18n-placeholder="menu.search" placeholder="Gericht suchen …"></label>
+        <button class="table-dock-button" type="button" data-open-table><span data-icon="plate"></span><span data-i18n="table.your">Unser Tisch</span><b data-table-count>0</b></button>
+      </div>
+      <nav class="menu-categories" aria-label="Menükategorien" data-menu-categories></nav>
+      <div class="menu-meta"><p><span data-menu-results></span> <span data-i18n="menu.results">Gerichte</span></p><p data-i18n="menu.addHint">Mit + direkt zum gemeinsamen Tisch hinzufügen.</p></div>
+      <div class="menu-grid" data-menu-grid></div>
+      <p class="menu-note" data-i18n="menu.note">Alle Preise inklusive Mehrwertsteuer. Informationen zu Allergenen erhalten Sie bei unserem Team vor Ort.</p>
+    </section>
+
+    <section class="table-builder section" id="tisch">
+      <div class="table-visual">
+        <div class="table-top">
+          <div class="place-setting place-one"><span class="plate"></span><span class="fork"></span><span class="knife"></span></div>
+          <div class="place-setting place-two"><span class="plate"></span><span class="fork"></span><span class="knife"></span></div>
+          <div class="place-setting place-three"><span class="plate"></span><span class="fork"></span><span class="knife"></span></div>
+          <div class="place-setting place-four"><span class="plate"></span><span class="fork"></span><span class="knife"></span></div>
+          <div class="table-center"><span>ΟΔΥΣΣΕΥΣ</span><b data-table-total>0,00 €</b></div>
+        </div>
+      </div>
+      <div class="table-intro">
+        <div class="eyebrow" data-i18n="table.plannerEyebrow">Der Odysseus Tischplaner</div>
+        <h2 data-i18n="table.plannerTitle">Was darf in die Mitte?</h2>
+        <p data-i18n="table.plannerText">Wählen Sie Ihre Runde und Lieblingsgerichte. Wir rechnen aus, was auf den Tisch kommt – und was es pro Person kostet.</p>
+        <div class="guest-stepper">
+          <span data-i18n="table.guests">Personen</span>
+          <button type="button" data-guests-minus aria-label="Eine Person weniger">−</button><strong data-guests>2</strong><button type="button" data-guests-plus aria-label="Eine Person mehr">+</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div data-site-footer></div>
+  <aside class="table-drawer" data-table-drawer aria-hidden="true"><div data-table-panel></div></aside>
+  <div class="drawer-scrim" data-table-scrim></div>
+</body>
+</html>

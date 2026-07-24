@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://odysseus-ochtrup-concept.onrender.com/sitemap.xml
