@@ -19,7 +19,7 @@
       "quote.text":"Bei uns bestellt man nicht nur Essen. Man bestellt einen Abend zusammen.","quote.by":"Familie Smyridis","cta.eyebrow":"Ihr Platz ist gedeckt","cta.title":"Heute schon an Griechenland denken.",
       "menu.eyebrow":"Die Speisekarte","menu.title1":"Ehrlich gekocht.","menu.title2":"Großzügig geteilt.","menu.intro":"Klassiker aus Griechenland, Spezialitäten vom Grill und kleine Teller für die ganze Runde.",
       "menu.searchLabel":"Speisekarte durchsuchen","menu.search":"Gericht suchen …","menu.results":"Gerichte","menu.addHint":"Mit + direkt zum gemeinsamen Tisch hinzufügen.","menu.note":"Alle Preise inklusive Mehrwertsteuer. Informationen zu Allergenen erhalten Sie bei unserem Team vor Ort.","menu.empty":"Kein Gericht gefunden","menu.emptyText":"Probieren Sie einen anderen Suchbegriff oder eine andere Kategorie.","menu.all":"Alles",
-      "table.your":"Unser Tisch","table.plannerEyebrow":"Der Odysseus Tischplaner","table.plannerTitle":"Was darf in die Mitte?","table.plannerText":"Wählen Sie Ihre Runde und Lieblingsgerichte. Wir rechnen aus, was auf den Tisch kommt – und was es pro Person kostet.","table.guests":"Personen","table.empty":"Ihr Tisch wartet noch auf das erste Gericht.","table.total":"Gesamt","table.perPerson":"Pro Person","table.toBooking":"Diesen Tisch reservieren","table.added":"Zum Tisch hinzugefügt","table.removed":"Vom Tisch entfernt","table.close":"Tisch schließen",
+      "table.your":"Unser Tisch","table.plannerEyebrow":"Der Odysseus Tischplaner","table.plannerTitle":"Was darf in die Mitte?","table.plannerText":"Wählen Sie Ihre Runde und Lieblingsgerichte. Wir rechnen aus, was auf den Tisch kommt – und was es pro Person kostet.","table.guests":"Personen","table.empty":"Ihr Tisch wartet noch auf das erste Gericht.","table.onTable":"Auf unserem Tisch","table.surfaceEmpty":"Noch ist Platz für Ihre Auswahl","table.cartEmpty":"Wählen Sie oben Gerichte mit + aus – sie erscheinen hier direkt auf dem Tisch.","table.details":"Alle Details","table.more":"weitere","table.removeDish":"Gericht entfernen","table.total":"Gesamt","table.perPerson":"Pro Person","table.toBooking":"Diesen Tisch reservieren","table.added":"Zum Tisch hinzugefügt","table.removed":"Vom Tisch entfernt","table.close":"Tisch schließen",
       "booking.eyebrow":"Tisch reservieren","booking.title1":"Ihr Abend","booking.title2":"beginnt hier.","booking.text":"Wählen Sie in drei kurzen Schritten Ihren Lieblingstisch.","booking.today":"Heute","booking.hours":"Mi–Sa 17:30–23:00 · So 12:00–14:30 & 17:30–23:00","booking.open":"Heute geöffnet","booking.closed":"Heute Ruhetag",
       "booking.step1":"Wann","booking.step2":"Wer & wo","booking.step3":"Kontakt","booking.chooseDate":"Datum wählen","booking.chooseGuests":"Gäste wählen","booking.yourDetails":"Ihre Angaben","booking.stepOne":"Schritt 1 von 3","booking.stepTwo":"Schritt 2 von 3","booking.stepThree":"Schritt 3 von 3","booking.whenTitle":"Wann dürfen wir Sie begrüßen?","booking.time":"Uhrzeit","booking.timeHint":"Wählen Sie zuerst ein verfügbares Datum.","booking.companyTitle":"Wie sieht Ihre Runde aus?","booking.people":"Anzahl Personen","booking.area":"Wunschbereich","booking.areaRestaurant":"Restaurant","booking.areaRestaurantText":"Warm & gesellig","booking.areaTerrace":"Terrasse","booking.areaTerraceText":"Wenn das Wetter mitspielt","booking.areaAny":"Überraschen Sie mich","booking.areaAnyText":"Der schönste freie Tisch","booking.contactTitle":"Wie erreichen wir Sie?","booking.help":"Lieber persönlich?","booking.helpText":"Wir nehmen Ihre Reservierung auch gern telefonisch entgegen.","booking.more":"8+",
       "form.name":"Name","form.phone":"Telefon","form.email":"E-Mail","form.occasion":"Anlass (optional)","form.none":"Kein besonderer Anlass","form.birthday":"Geburtstag","form.anniversary":"Jahrestag","form.business":"Geschäftsessen","form.note":"Wünsche (optional)","form.notePlaceholder":"Kinderstuhl, Allergien, besondere Wünsche …","form.privacy":"Ich stimme der Verarbeitung meiner Angaben zur Bearbeitung der Reservierungsanfrage zu.","form.disclaimer":"Dies ist eine unverbindliche Reservierungsanfrage. Ihr Tisch ist erst nach Bestätigung durch das Restaurant fest reserviert.",
@@ -41,7 +41,7 @@
       "quote.text":"Bij ons bestel je niet alleen eten. Je bestelt een avond samen.","quote.by":"Familie Smyridis","cta.eyebrow":"Uw plaats is gedekt","cta.title":"Denk vandaag al aan Griekenland.",
       "menu.eyebrow":"De menukaart","menu.title1":"Eerlijk gekookt.","menu.title2":"Royaal gedeeld.","menu.intro":"Griekse klassiekers, specialiteiten van de grill en kleine gerechten voor het hele gezelschap.",
       "menu.searchLabel":"Zoek in het menu","menu.search":"Zoek een gerecht …","menu.results":"gerechten","menu.addHint":"Voeg met + direct toe aan de gezamenlijke tafel.","menu.note":"Alle prijzen zijn inclusief btw. Informatie over allergenen is verkrijgbaar bij ons team.","menu.empty":"Geen gerecht gevonden","menu.emptyText":"Probeer een andere zoekterm of categorie.","menu.all":"Alles",
-      "table.your":"Onze tafel","table.plannerEyebrow":"De Odysseus tafelplanner","table.plannerTitle":"Wat komt er in het midden?","table.plannerText":"Kies uw gezelschap en favoriete gerechten. Wij laten zien wat er op tafel komt – en wat het per persoon kost.","table.guests":"Personen","table.empty":"Uw tafel wacht nog op het eerste gerecht.","table.total":"Totaal","table.perPerson":"Per persoon","table.toBooking":"Reserveer deze tafel","table.added":"Aan tafel toegevoegd","table.removed":"Van tafel verwijderd","table.close":"Tafel sluiten",
+      "table.your":"Onze tafel","table.plannerEyebrow":"De Odysseus tafelplanner","table.plannerTitle":"Wat komt er in het midden?","table.plannerText":"Kies uw gezelschap en favoriete gerechten. Wij laten zien wat er op tafel komt – en wat het per persoon kost.","table.guests":"Personen","table.empty":"Uw tafel wacht nog op het eerste gerecht.","table.onTable":"Op onze tafel","table.surfaceEmpty":"Er is nog plaats voor uw keuze","table.cartEmpty":"Kies hierboven gerechten met + – ze verschijnen hier direct op tafel.","table.details":"Alle details","table.more":"meer","table.removeDish":"Gerecht verwijderen","table.total":"Totaal","table.perPerson":"Per persoon","table.toBooking":"Reserveer deze tafel","table.added":"Aan tafel toegevoegd","table.removed":"Van tafel verwijderd","table.close":"Tafel sluiten",
       "booking.eyebrow":"Tafel reserveren","booking.title1":"Uw avond","booking.title2":"begint hier.","booking.text":"Kies in drie korte stappen uw favoriete tafel.","booking.today":"Vandaag","booking.hours":"Wo–za 17:30–23:00 · zo 12:00–14:30 & 17:30–23:00","booking.open":"Vandaag geopend","booking.closed":"Vandaag gesloten",
       "booking.step1":"Wanneer","booking.step2":"Wie & waar","booking.step3":"Contact","booking.chooseDate":"Kies een datum","booking.chooseGuests":"Kies gasten","booking.yourDetails":"Uw gegevens","booking.stepOne":"Stap 1 van 3","booking.stepTwo":"Stap 2 van 3","booking.stepThree":"Stap 3 van 3","booking.whenTitle":"Wanneer mogen we u verwelkomen?","booking.time":"Tijd","booking.timeHint":"Kies eerst een beschikbare datum.","booking.companyTitle":"Hoe ziet uw gezelschap eruit?","booking.people":"Aantal personen","booking.area":"Gewenste plek","booking.areaRestaurant":"Restaurant","booking.areaRestaurantText":"Warm & gezellig","booking.areaTerrace":"Terras","booking.areaTerraceText":"Als het weer meewerkt","booking.areaAny":"Verras mij","booking.areaAnyText":"De mooiste vrije tafel","booking.contactTitle":"Hoe kunnen we u bereiken?","booking.help":"Liever persoonlijk?","booking.helpText":"Wij nemen uw reservering ook graag telefonisch aan.","booking.more":"8+",
       "form.name":"Naam","form.phone":"Telefoon","form.email":"E-mail","form.occasion":"Gelegenheid (optioneel)","form.none":"Geen bijzondere gelegenheid","form.birthday":"Verjaardag","form.anniversary":"Jubileum","form.business":"Zakendiner","form.note":"Wensen (optioneel)","form.notePlaceholder":"Kinderstoel, allergieën, bijzondere wensen …","form.privacy":"Ik ga akkoord met de verwerking van mijn gegevens voor deze reserveringsaanvraag.","form.disclaimer":"Dit is een vrijblijvende reserveringsaanvraag. Uw tafel is pas definitief na bevestiging door het restaurant.",
@@ -63,7 +63,7 @@
       "quote.text":"Here you don't just order food. You order an evening together.","quote.by":"The Smyridis family","cta.eyebrow":"Your place is set","cta.title":"Start dreaming of Greece today.",
       "menu.eyebrow":"The menu","menu.title1":"Honestly cooked.","menu.title2":"Generously shared.","menu.intro":"Greek classics, grill specialities and small plates for the whole table.",
       "menu.searchLabel":"Search the menu","menu.search":"Search for a dish …","menu.results":"dishes","menu.addHint":"Use + to add a dish straight to your shared table.","menu.note":"All prices include VAT. Please ask our team for allergen information.","menu.empty":"No dish found","menu.emptyText":"Try another search term or category.","menu.all":"All",
-      "table.your":"Our table","table.plannerEyebrow":"The Odysseus table planner","table.plannerTitle":"What goes in the middle?","table.plannerText":"Choose your group and favourite dishes. We show what comes to the table – and the cost per person.","table.guests":"Guests","table.empty":"Your table is still waiting for its first dish.","table.total":"Total","table.perPerson":"Per person","table.toBooking":"Reserve this table","table.added":"Added to your table","table.removed":"Removed from your table","table.close":"Close table",
+      "table.your":"Our table","table.plannerEyebrow":"The Odysseus table planner","table.plannerTitle":"What goes in the middle?","table.plannerText":"Choose your group and favourite dishes. We show what comes to the table – and the cost per person.","table.guests":"Guests","table.empty":"Your table is still waiting for its first dish.","table.onTable":"On our table","table.surfaceEmpty":"There is still room for your selection","table.cartEmpty":"Choose dishes above with + – they will appear here on the table.","table.details":"All details","table.more":"more","table.removeDish":"Remove dish","table.total":"Total","table.perPerson":"Per person","table.toBooking":"Reserve this table","table.added":"Added to your table","table.removed":"Removed from your table","table.close":"Close table",
       "booking.eyebrow":"Reserve a table","booking.title1":"Your evening","booking.title2":"starts here.","booking.text":"Choose your favourite table in three short steps.","booking.today":"Today","booking.hours":"Wed–Sat 17:30–23:00 · Sun 12:00–14:30 & 17:30–23:00","booking.open":"Open today","booking.closed":"Closed today",
       "booking.step1":"When","booking.step2":"Who & where","booking.step3":"Contact","booking.chooseDate":"Choose a date","booking.chooseGuests":"Choose guests","booking.yourDetails":"Your details","booking.stepOne":"Step 1 of 3","booking.stepTwo":"Step 2 of 3","booking.stepThree":"Step 3 of 3","booking.whenTitle":"When may we welcome you?","booking.time":"Time","booking.timeHint":"Please choose an available date first.","booking.companyTitle":"Tell us about your party.","booking.people":"Number of guests","booking.area":"Preferred area","booking.areaRestaurant":"Restaurant","booking.areaRestaurantText":"Warm & sociable","booking.areaTerrace":"Terrace","booking.areaTerraceText":"Weather permitting","booking.areaAny":"Surprise me","booking.areaAnyText":"The nicest available table","booking.contactTitle":"How can we reach you?","booking.help":"Prefer to speak to us?","booking.helpText":"We are also happy to take your reservation by phone.","booking.more":"8+",
       "form.name":"Name","form.phone":"Phone","form.email":"Email","form.occasion":"Occasion (optional)","form.none":"No special occasion","form.birthday":"Birthday","form.anniversary":"Anniversary","form.business":"Business dinner","form.note":"Requests (optional)","form.notePlaceholder":"High chair, allergies, special requests …","form.privacy":"I agree to the processing of my details for this reservation request.","form.disclaimer":"This is a non-binding reservation request. Your table is only confirmed after approval by the restaurant.",
@@ -225,7 +225,7 @@
     applyTranslations();
     $("[data-menu-toggle]")?.setAttribute("aria-label", t("menu.open"));
     updateOpenStatus();
-    if ($("[data-menu-grid]")) { renderCategories(); renderMenu(); renderTablePanel(); }
+    if ($("[data-menu-grid]")) { renderCategories(); renderMenu(); renderTablePanel(); renderTableSurface(); renderTablePreview(); }
     if ($("[data-calendar]")) { renderBookingGuests(); renderCalendar(); updateBookingUI(); }
   }
 
@@ -267,7 +267,21 @@
       activeCategory = button.dataset.category;
       renderCategories();
       renderMenu();
+      requestAnimationFrame(scrollMenuToStart);
     }));
+  }
+
+  function scrollMenuToStart() {
+    const marker = $(".menu-meta");
+    const categoryBar = $(".menu-categories-sticky");
+    if (!marker || !categoryBar) return;
+    const categoryHeight = categoryBar.getBoundingClientRect().height;
+    const stickyTop = Number.parseFloat(getComputedStyle(categoryBar).top) || $(".site-header")?.getBoundingClientRect().bottom || 0;
+    const top = marker.getBoundingClientRect().top + window.scrollY - stickyTop - categoryHeight - 14;
+    window.scrollTo({
+      top: Math.max(0, top),
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"
+    });
   }
 
   function renderMenu() {
@@ -304,6 +318,64 @@
     $$("[data-table-count]").forEach(el => el.textContent = table.items.length);
     const total = table.items.reduce((sum,id) => sum + (menuItems.find(item=>item.id===id)?.p || 0),0);
     $$("[data-table-total]").forEach(el => el.textContent = money(total));
+    renderTableSurface();
+    renderTablePreview();
+  }
+
+  function groupedTableItems() {
+    const grouped = new Map();
+    table.items.forEach(id => {
+      const item = menuItems.find(candidate => candidate.id === id);
+      if (!item) return;
+      if (!grouped.has(id)) grouped.set(id, { item, count:0 });
+      grouped.get(id).count += 1;
+    });
+    return [...grouped.values()];
+  }
+
+  function renderTableSurface() {
+    const root = $("[data-table-surface-items]");
+    if (!root) return;
+    const grouped = groupedTableItems();
+    if (!grouped.length) {
+      root.innerHTML = `<span class="table-surface-empty">${t("table.surfaceEmpty")}</span>`;
+      return;
+    }
+    const visible = grouped.slice(0,4);
+    const hiddenCount = grouped.slice(4).reduce((sum,entry)=>sum+entry.count,0);
+    root.innerHTML = `${visible.map(({item,count}) => {
+      const category = categories.find(candidate => candidate.id === item.c);
+      return `<div class="table-dish-token">
+        <span class="table-dish-icon">${svg(category?.icon || "plate")}</span>
+        <b>${item.n[currentLang]}</b>
+        ${count > 1 ? `<small>${count}×</small>` : ""}
+      </div>`;
+    }).join("")}${hiddenCount ? `<span class="table-dish-more">+${hiddenCount} ${t("table.more")}</span>` : ""}`;
+  }
+
+  function renderTablePreview() {
+    const root = $("[data-table-preview]");
+    if (!root) return;
+    const grouped = groupedTableItems();
+    const total = grouped.reduce((sum,entry)=>sum+(entry.item.p*entry.count),0);
+    root.innerHTML = `
+      <div class="table-preview-head">
+        <div><span>${t("table.onTable")}</span><strong>${table.items.length}</strong></div>
+        <button type="button" data-preview-details>${t("table.details")} <span>↗</span></button>
+      </div>
+      ${grouped.length ? `<ul class="table-preview-items">${grouped.map(({item,count}) => `
+        <li class="table-preview-item">
+          <span class="table-preview-qty">${count}×</span>
+          <div><b>${item.n[currentLang]}</b><small>${categories.find(category=>category.id===item.c)?.name[currentLang] || ""}</small></div>
+          <strong>${money(item.p*count)}</strong>
+          <button type="button" data-preview-remove="${item.id}" aria-label="${t("table.removeDish")}: ${item.n[currentLang]}">−</button>
+        </li>`).join("")}</ul>` : `<p class="table-preview-empty">${t("table.cartEmpty")}</p>`}
+      <div class="table-preview-total"><span>${t("table.total")}</span><strong>${money(total)}</strong></div>`;
+    $("[data-preview-details]",root)?.addEventListener("click",openTable);
+    $$("[data-preview-remove]",root).forEach(button=>button.addEventListener("click",()=>{
+      const index = table.items.lastIndexOf(Number(button.dataset.previewRemove));
+      if (index >= 0) removeItemAt(index);
+    }));
   }
 
   function addItem(id) {
