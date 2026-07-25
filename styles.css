@@ -166,15 +166,6 @@ h1, h2, h3 { text-wrap: balance; }
 .teaser-copy h2 { margin-bottom: 28px; }
 .teaser-copy h2 em { color: var(--terracotta); font-weight: 400; }
 .teaser-copy p { max-width: 560px; margin-bottom: 34px; color: var(--muted); font-size: 17px; }
-.event-section { background: var(--paper); }
-.event-card { position: relative; display: grid; grid-template-columns: 1.15fr .55fr; min-height: 570px; overflow: hidden; color: #fff; background: linear-gradient(125deg,var(--terracotta),#713428); }
-.event-card::before { content: "22"; position: absolute; right: 37%; bottom: -74px; color: transparent; font: 370px/.8 var(--serif); -webkit-text-stroke: 1px rgba(255,255,255,.11); }
-.event-copy { position: relative; z-index: 2; padding: clamp(50px,7vw,100px); }
-.event-date { margin: 0 0 22px; color: var(--sun-light); font-size: 11px; font-weight: 700; letter-spacing: .3em; }
-.event-copy h2 { max-width: 720px; margin-bottom: 24px; font: 400 clamp(56px,6vw,100px)/.9 var(--serif); }
-.event-copy>p:not(.event-date) { max-width: 480px; margin-bottom: 36px; color: rgba(255,255,255,.72); font-size: 18px; }
-.event-poster { display: grid; place-items: center; padding: 42px; background: rgba(0,0,0,.18); }
-.event-poster img { max-height: 510px; box-shadow: 0 25px 60px rgba(0,0,0,.32); transform: rotate(3deg); }
 .quote-section { position: relative; padding: clamp(100px,12vw,180px) var(--pad); text-align: center; overflow: hidden; background: var(--sun-light); }
 .quote-mark { position: absolute; top: -110px; left: 6%; color: rgba(7,31,52,.08); font: 420px/1 var(--serif); }
 .quote-section blockquote { position: relative; max-width: 1050px; margin: 0 auto 28px; font: 400 clamp(46px,6vw,94px)/.96 var(--serif); }
@@ -498,9 +489,6 @@ h1, h2, h3 { text-wrap: balance; }
   .table-teaser { grid-template-columns: 1fr; }
   .teaser-photo img { aspect-ratio: 1; }
   .teaser-copy .section-index { margin-bottom: 30px; }
-  .event-card { grid-template-columns: 1fr; }
-  .event-poster { padding-top: 0; }
-  .event-poster img { max-height: 420px; }
   .quote-section blockquote { font-size: 49px; }
   .reserve-cta, .reserve-cta-overlay { min-height: 590px; }
   .reserve-cta h2 { font-size: 62px; }
@@ -571,9 +559,6 @@ h1, h2, h3 { text-wrap: balance; }
   .food-card-main, .food-card-tall { height: 420px; margin: 0; }
   .food-card-round { width: 82%; margin: 0 0 0 auto; }
   .food-card-round .food-card-copy { bottom: 44px; }
-  .event-copy { padding: 45px 25px; }
-  .event-copy h2 { font-size: 56px; }
-  .event-poster { padding: 0 25px 45px; }
   .quote-section blockquote { font-size: 41px; }
   .reserve-cta h2 { font-size: 52px; }
   .footer-main { grid-template-columns: 1fr; }
