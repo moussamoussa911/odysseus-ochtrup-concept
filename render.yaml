@@ -1,13 +1,20 @@
 services:
   - type: web
     name: odysseus-ochtrup-concept
-    runtime: node
-    region: frankfurt
-    plan: free
-    buildCommand: npm ci
-    startCommand: npm start
-    healthCheckPath: /health
+    runtime: static
+    buildCommand: echo "Static site ready"
+    staticPublishPath: .
     autoDeploy: true
-    envVars:
-      - key: NODE_ENV
-        value: production
+    routes:
+      - type: rewrite
+        source: /speisekarte
+        destination: /speisekarte.html
+      - type: rewrite
+        source: /reservieren
+        destination: /reservieren.html
+      - type: rewrite
+        source: /restaurant
+        destination: /restaurant.html
+      - type: rewrite
+        source: /rechtliches
+        destination: /rechtliches.html
